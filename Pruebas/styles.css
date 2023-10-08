@@ -1,0 +1,19 @@
+/* Estilos adicionales para la disposición del formulario */
+#altaClienteForm {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px; /* Ancho del formulario, ajusta según sea necesario */
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+#altaClienteForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Añade estilos según tu preferencia */
+.hidden {
+    display: none;
+}
