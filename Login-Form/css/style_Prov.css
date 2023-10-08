@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/Fondo.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+
+}
+header{
+    width: 100%;
+    height: 90px;
+    background-color: #000000;
+}
+.interior{
+    max-width: 100%;
+    padding: 0 10px;
+    margin: auto;
+}
+.logo{
+    float: left;
+    padding: 5px 20px 0;
+
+}
+.logo img{
+    height: 80px;
+    border-radius: 50%;
+    left: calc(50% - 50px);
+}
+.logo img:hover{
+    transform: scale(1.1);
+}
+.navegacion{
+    float: right;
+    display: flex;
+    align-items: center;
+    min-height: 90px;
+    z-index: 1000;
+}
+.navegacion li{
+    color: #ffff;
+    display: inline-block;
+    position: relative;
+    transition: .3s linear;
+    z-index: 1000;
+}
+.navegacion li:hover{
+    transform: scale(1.1);
+}
+.navegacion li a{
+    color: #fff;
+    text-align: center;
+    text-transform: vppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 20px;
+}
+.navegacion li a:hover{
+    color: #ffffff;
+    transform: scale(1.1);
+
+}
+.Login-box2{
+    border-radius: 9%;
+    width: 1205px;
+    height: 435px;
+    background: rgb(255, 254, 254);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing:  border-box;
+    padding: 70px 30px;
+    opacity: 0.95;
+}
+.Login-box{
+    border-radius: 10%;
+    width: 1200px;
+    height: 430px;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing:  border-box;
+    padding: 70px 30px;
+    opacity: 0.93;
+}
+th{
+    column-count:3; 
+    column-gap:10px;
+}
